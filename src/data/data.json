@@ -1,0 +1,83 @@
+[
+    {
+        "Id": 1,
+        "sale": "",
+        "itemType": "Fancy Product",
+       "src":"https://images.pexels.com/photos/135620/pexels-photo-135620.jpeg?cs=srgb&dl=pexels-shattha-pilabut-135620.jpg&fm=jpg",
+        "price": {
+            "oldPrice": "",
+            "newPrice": "$40.00-$150.00"
+        },
+        "buttonName": "Add to cart"
+    },
+    {
+        "sale": "sale",
+        "itemType": "Special Item",
+        "src":"https://thumbs.dreamstime.com/b/interior-shoe-store-modern-european-mall-bright-fashionable-43181716.jpg",
+        "price": {
+            "oldPrice": "$20.00",
+            "newPrice": "$15.00"
+        },
+        "buttonName": "Add to cart"
+    },
+    {
+        "sale": "sale",
+        "itemType": "Sale Item",
+        "src":"https://thumbs.dreamstime.com/b/interior-women-s-clothing-store-mall-rostov-don-russia-march-interior-manila-grace-store-horizon-143232369.jpg",
+        "price": {
+            "oldPrice": "$50.00",
+            "newPrice": "$30.00"
+        },
+        "buttonName": "Add to cart"
+    },
+    {
+        "sale": "",
+        "itemType": "Popular Item",
+        "src":"https://lh3.googleusercontent.com/DXtUkycsgolwELfCYC_sFSJJWRyjQ-9Us95IFGcpDhN5S6BUQEHPjkhLHh6bFT-WxH3FjWKvyUkWWfbtqz59s5ZNhOVu_GuaL1ep10A2=w1000?s=300",
+        "price": {
+            "oldPrice": "$56",
+            "newPrice": "$40.00"
+        },
+        "buttonName": "Add to cart"
+    },
+    {
+        "sale": "sale",
+        "itemType": "Sale Item",
+       "src":"https://img.freepik.com/free-vector/baby-cosmetic-bottle-design-soap-bubbles-realistic_107791-462.jpg",
+        "price": {
+            "oldPrice": "$50.00",
+            "newPrice": "$35.00"
+        },
+        "buttonName": "Add to cart"
+    },
+    {
+        "sale": "",
+        "itemType": "Fancy Product",
+        "src":"https://c8.alamy.com/comp/M498AX/colorful-gemstones-on-sale-at-a-flea-market-in-sibiu-romania-multicolored-M498AX.jpg",
+        "price": {
+            "oldPrice": "",
+            "newPrice": "$120.00 - $280.00"
+        },
+        "buttonName": "Add to cart"
+    },
+    {
+        "sale": "sale",
+        "itemType": "Special Item",
+        "src":"https://static.toiimg.com/thumb/resizemode-4,msid-91413614,width-800,height-450,imgv-75/91413614.jpg",
+        "price": {
+            "oldPrice": "$20.00",
+            "newPrice": "$19.00"
+        },
+        "buttonName": "Add to cart"
+    },
+    {
+        "sale": "",
+        "itemType": "Popular Item",
+        "src":"https://thumbs.dreamstime.com/b/gadgets-accessories-isolated-white-background-gadgets-accessories-132710503.jpg",
+        "price": {
+            "oldPrice": "",
+            "newPrice": "$60.00"
+        },
+        "buttonName": "Add to cart"
+    }
+]

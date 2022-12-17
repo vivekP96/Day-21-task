@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React,{useState} from "react";
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Cards from "./components/Cards";
+import data from "./data/data.json";
+export default function App() {
+  const [itemCount,setItemCount]=useState(0);
+  const manageItems = (e) => {
+    if (e.target.innerText === "Add to cart") {
+      setItemCount(itemCount + 1);
+      e.target.innerText = "Remove from cart";
+      e.target.classList.value = "btn btn-primary mt-auto";
+    } else if (e.target.innerText === "Remove from cart") {
+      setItemCount(itemCount - 1);
+      e.target.innerText = "Add to cart";
+      e.target.classList.value = "btn btn-danger mt-auto";
+    }
+  };
+  return(
+    <>
+    <Navbar itemCount={itemCount}/>
+    <Header />
+< Cards data={data} manageItems={manageItems}/>
+    <Footer />
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    </>
+  )
+    
+ 
 }
-
-export default App;
